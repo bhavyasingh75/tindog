@@ -1,0 +1,193 @@
+body{
+    font-family: "Montserrat";
+    text-align:center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   font-family:"Montserrat",sans-serif;
+}
+
+/* Headings */
+
+.big-heading{
+    font-family: "Montserrat",sans-serif;
+    font-size:3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size:3rem;
+    line-height:1.5;
+}
+
+/* containers */
+
+.container-fluid{
+    padding:7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color:#ff68ae;
+    color:#fff;  
+}
+
+
+.white-section{
+    background-color: #fff;
+}
+
+
+
+/* Navigation Bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family:"Ubuntu",sans-serif;
+    font-size:2.5rem;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-size:1.2rem;
+    font-weight:100;
+}
+
+/* download buttons */
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+/* title section */
+
+#title.container-fluid{
+    padding:3% 15% 7%;
+}
+
+/* Title Image */
+.title-image{
+    width:25%;
+    transform:rotate(25deg); 
+    position:absolute;
+    right:20%;
+}
+
+/* Features */
+
+#features{
+   
+    position:relative;
+ 
+}
+.feature-title{
+    font-weight: bold;
+    font-size:1.5rem;
+}
+
+.feature{
+    
+    padding:5%;  
+}
+
+.liner{
+    color:#8f8f8f;
+}
+
+.logo{
+    color:#FF869E;
+    margin-bottom: 1rem;
+    
+}
+
+ .logo:hover{
+    color:#ff4c68;
+ }
+
+ /* Testimonials */
+
+ #testimonials {
+     background-color:#FF869E;
+ }
+
+ .testimonial-text{
+    font-size:3rem;
+    line-height:1.5;
+ }
+
+
+ .testimonial-image {
+        width:20%;
+        border-radius:100%;
+        margin:20%;
+ }
+
+
+ #press{
+    background-color:#FF869E;
+    padding-bottom:3%;
+ }
+
+ .press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+ }
+
+ /* Pricing section  */
+
+ #pricing{
+    padding:100px;
+   
+ }
+
+ .price-heading{
+    font-weight: bold;
+    font-size:1.5rem;
+ }
+
+.price-text{
+    font-size:3rem;
+    line-height:1.5;
+}
+
+
+ .pricing-column{
+    padding:3% 2%;
+ }
+
+ @media(max-width:990px)
+ {
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position:static;
+        transform:rotate(0);
+    }
+ }
+/* footer */
+
+#footer{
+    padding:4rem 6rem;
+    background-color: #fff; 
+}
+
+.footer-link{
+    color:#000;
+    text-decoration: none;
+    margin:20px 10px;
+}
+
+.copyright{
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    padding:10px;
+}
